@@ -21,7 +21,7 @@
      - audio
      - video
 
-## Examples of unicode
+## Examples
 
  -  unicode.org
  -  https://en.wikipedia.org/wiki/List_of_file_signatures
@@ -37,4 +37,12 @@ Report
 This year 2024 will be the beginning of new project. Designers of the new project Mary River and Matt Jones attended the launch.......
 ```
 
+## structured text
+```
+Writer: Mary River
+Year: 2024
 
+Type: Report
+
+This year 2024 will be the beginning of new project. Designers of the new project Mary River and Matt Jones attended the launch.......
+```

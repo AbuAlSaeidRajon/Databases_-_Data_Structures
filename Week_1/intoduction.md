@@ -21,3 +21,20 @@
      - audio
      - video
 
+## Examples of unicode
+
+ -  unicode.org
+ -  https://en.wikipedia.org/wiki/List_of_file_signatures
+
+## plain text
+
+```
+Mary River
+2024
+
+Report
+
+This year 2024 will be the beginning of new project. Designers of the new project Mary River and Matt Jones attended the launch.......
+```
+
+

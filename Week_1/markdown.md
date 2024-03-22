@@ -43,7 +43,7 @@ const number = 10;
 let name = "Matt";
 ```
 
- <div style="page-break-after:always;"></div>
+ <div style="page-break-after: always;"></div>
 
 ### json
 
@@ -59,9 +59,9 @@ let name = "Matt";
 ```php
 <?php
 if($method=="GET"){
-   echo "this is $method;
+   echo "this is GET";
 }
->
+?>
 ```
 
 ### terminal/shell

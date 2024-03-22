@@ -1,77 +1,89 @@
-
 # Markdown Header
 
--   vscode/vscodium preview
-    - ctrl+shift+v for windows
-    - cmd+shift+v for mac
-
+- vscode/vscodium preview
+  - ctrl+shift+v for windows
+  - cmd+shift+v for mac
 
 ## Headers
 
 # level 1
+
 ## level 2
+
 ### level 3
+
 #### level 4
+
 ##### level 5
+
 ###### level 6
 
 ## Text Formatting
 
-This is *this is italic* and **this is bold** `code`  
+This is _this is italic_ and **this is bold** `code`  
 Two spaces at the preview line makes a line break
 
 ## lists
+
 - item 1
 - item 2
- - subitem
+- subitem
 
- ## numbered list 
- 1. item
- 2. another item 
+## numbered list
 
- ## languages or formats
+1.  item
+2.  another item
 
- ### Javascript
- ```js
- const number = 10;
- let name = "Matt";
- ```
+## languages or formats
 
- ### json
- ```json
- {
-    "firstName":"Matt",
-    "age":25
- }
- ```
+### Javascript
 
- ### php
- ```php
- <?php
- if($method=="GET"){
-    echo "this is $method;
- }
- >
- ```
+```js
+const number = 10;
+let name = "Matt";
+```
 
- ### terminal/shell
- ```shell
- $ node -v
- ```
+ <div style="page-break-after:always;"></div>
 
- ### gray block
- ```
- some text
- ```
+### json
 
- ## tables
+```json
+{
+  "firstName": "Matt",
+  "age": 25
+}
+```
 
- header1|header2|header3
-:---    |---:   |:---:
-d1      |d2     |d3
+### php
 
-|alignment |tag  |
-|----------|:---:|
-|left      |:--- |
-|right     |---: |
-|center    |:---:|
+```php
+<?php
+if($method=="GET"){
+   echo "this is $method;
+}
+>
+```
+
+### terminal/shell
+
+```shell
+$ node -v
+```
+
+### gray block
+
+```
+some text
+```
+
+## tables
+
+| header1 | header2 | header3 |
+| :------ | ------: | :-----: |
+| d1      |      d2 |   d3    |
+
+| alignment |  tag  |
+| --------- | :---: |
+| left      | :---  |
+| right     | ---:  |
+| center    | :---: |

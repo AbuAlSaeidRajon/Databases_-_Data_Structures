@@ -1,56 +1,48 @@
-# Markdown Header
+# Markdown - short intro
 
-- vscode/vscodium preview
-  - ctrl+shift+v for windows
-  - cmd+shift+v for mac
+-   vscode/vscodium preview
+    - ctrl+shift+v
+    - cmd+shift+v
 
-## Headers
+## headers
 
 # level 1
-
 ## level 2
-
 ### level 3
-
 #### level 4
-
 ##### level 5
-
 ###### level 6
 
-## Text Formatting
+## text formatting
 
-This is _this is italic_ and **this is bold** `code`  
-Two spaces at the preview line makes a line break
+Some text *this is italic* and **this is bold**
+`code`  
+Two spaces at the end of previous line makes a line break
 
 ## lists
 
 - item 1
 - item 2
-- subitem
+  - subitem
 
-## numbered list
-
-1.  item
-2.  another item
+## numbered lists
+1. item
+2. another item
 
 ## languages or formats
 
-### Javascript
-
+### javascript
 ```js
-const number = 10;
-let name = "Matt";
+const number=10;
+let name='Matt';
 ```
-
- <div style="page-break-after: always;"></div>
+<div style="page-break-after:always;"></div>
 
 ### json
-
 ```json
 {
-  "firstName": "Matt",
-  "age": 25
+    "firstname":"Matt",
+    "age":25
 }
 ```
 
@@ -58,32 +50,30 @@ let name = "Matt";
 
 ```php
 <?php
-if($method=="GET"){
-   echo "this is GET";
+if($method=='GET'){
+    echo "this is GET";
 }
 ?>
 ```
 
 ### terminal/shell
-
 ```shell
 $ node -v
 ```
 
 ### gray block
-
 ```
 some text
 ```
 
 ## tables
 
-| header1 | header2 | header3 |
-| :------ | ------: | :-----: |
-| d1      |      d2 |   d3    |
+header1|header2|header3
+:---   |---:   |:---:
+d1     | d2    |     d3
 
-| alignment |  tag  |
-| --------- | :---: |
-| left      | :---  |
-| right     | ---:  |
-| center    | :---: |
+|alignment  |tag  |
+|-----------|:---:|
+|left       |:--- |
+|right      |---: |
+|center     |:---:|
